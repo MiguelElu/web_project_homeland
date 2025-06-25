@@ -1,0 +1,57 @@
+.header__art-galery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+}
+.header__art-galery-logo {
+  max-width: 32px;
+  max-height: 32px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1%;
+}
+.header__art-galery-text {
+  width: 254.84px;
+  height: 14.94px;
+}
+
+.header__title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  text-align: center;
+  color: #ffffff;
+  max-width: 720px;
+}
+.header__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  max-width: 720px;
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 75px;
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__subtitle {
+    font-size: 16px;
+    max-width: 288px;
+  }
+}

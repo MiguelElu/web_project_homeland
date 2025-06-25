@@ -1,0 +1,64 @@
+.content__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+.content__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+  color: #ffffff;
+  max-width: 830px;
+}
+
+.content__quote-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142%;
+  color: #ffffff;
+  max-width: 738px;
+}
+.content__quote-name-container {
+  display: flex;
+  justify-content: end;
+  max-width: 732px;
+}
+.content__quote-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142%;
+  margin-right: auto;
+  color: #ffffff;
+}
+
+.content__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+  max-width: 722px;
+}
+
+@media screen and (max-width: 768px) {
+  .content__title {
+    font-size: 45px;
+    max-width: 707px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__title {
+    font-size: 32px;
+    max-width: 288px;
+  }
+}
