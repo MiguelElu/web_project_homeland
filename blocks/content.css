@@ -6,7 +6,7 @@
 }
 
 .content__title {
-  font-family: "Inter";
+  font-family: "Inter-Black", "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -16,7 +16,7 @@
 }
 
 .content__quote-text {
-  font-family: "Inter";
+  font-family: "Inter-Regular", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -30,7 +30,7 @@
   max-width: 732px;
 }
 .content__quote-name {
-  font-family: "Inter";
+  font-family: "Inter-Regular", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -40,7 +40,7 @@
 }
 
 .content__description {
-  font-family: "Inter";
+  font-family: "Inter-Regular", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -54,11 +54,17 @@
     font-size: 45px;
     max-width: 707px;
   }
+  .content__container-text {
+    margin: 0 5%;
+  }
 }
 
 @media (max-width: 320px) {
   .content__title {
     font-size: 32px;
     max-width: 288px;
+  }
+  .content__container-text {
+    margin: 0 5%;
   }
 }
